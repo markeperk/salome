@@ -1,6 +1,6 @@
 (function() {
 
-angular.module('mpWebsite', ['ui.router','ui.bootstrap', ]);
+angular.module('mpWebsite', ['ui.router','ui.bootstrap', 'angular-parallax'])
 
 
 .config(function($stateProvider, $urlRouterProvider) {
@@ -22,5 +22,6 @@ angular.module('mpWebsite', ['ui.router','ui.bootstrap', ]);
 					controller: 'visualizationCtrl',
 				}
 			}
-
+	})
+});
 })();

@@ -1,7 +1,8 @@
 'use strict';
 
-angular.module('angular-parallax', [
-]).directive('parallax', ['$window', function($window) {
+angular.module('angular-parallax', [])
+
+.directive('parallax', ['$window', function($window) {
   return {
     restrict: 'A',
     scope: {

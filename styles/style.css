@@ -6,7 +6,7 @@ body {
   font-family: helvetica, arial;
 }
 body:after {
-  content: url(../images/landscape_nodes.jpg);
+  content: url(../images/landscape_nodes.png);
   display: none;
 }
 h1 {
@@ -41,9 +41,23 @@ h1 a {
   font-size: 38px;
   padding: 10px;
   position: absolute;
-  text-shadow: 0 2px 0 black, 0 0 10px black;
   width: 1280px;
 }
 .landscape {
-  background-image: url(../images/landscape_nodes.jpg);
+  background-image: url(../images/landscape_nodes.png);
+}
+
+.illustrations {
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  height: 650px;
+  position: relative;
+  background: white;
+}
+.visualizations {
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  height: 650px;
+  position: relative;
+  background: lightblue;
 }
