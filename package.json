@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/markeperk/salome/issues"
   },
-  "homepage": "https://github.com/markeperk/salome"
+  "homepage": "https://github.com/markeperk/salome",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3"
+  }
 }
