@@ -181,8 +181,18 @@ ul.about-list li span{
 	margin-right: 10px;
 }
 
-.me {
-	border-bottom: 1px solid rgba(150, 150, 150, .5);
+.me { 
+	margin: 0 auto;
+}
+
+.about-buffer {
+	margin-bottom: 20px;
+}
+
+@media (max-width: 415px) {
+  .line-space {
+    line-height: 30px;
+  }
 }
 
 /* Team Section */
